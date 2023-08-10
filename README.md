@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 项目指南
 
-## Getting Started
+### 获取项目源码
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```shell
+git clone https://github.com/Junfeng-Zhang/real-time-messenger.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 安装依赖
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+npm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 设置环境变量 在根目录下 添加 .env
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+```js
+DATABASE_URL=
+NEXTAUTH_SECRET=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NEXT_PUBLIC_PUSHER_APP_KEY=
+PUSHER_APP_ID=
+PUSHER_SECRET=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
 
-## Deploy on Vercel
+GITHUB_ID=
+GITHUB_SECRET=
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 设置 Prisma
+
+添加 MongoDB 数据库
+
+```shell
+npx prisma db push
+```
+
+### 启动项目
+
+```shell
+npm run dev
+```
+
+## 项目截图
+
