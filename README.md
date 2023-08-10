@@ -47,4 +47,9 @@ npm run dev
 ```
 
 ## 项目截图
-
+![登录页](https://github.com/Junfeng-Zhang/real-time-messenger/assets/60849891/ca581e28-8419-4fdb-bbf4-a6b3a7d6cc85)
+![通讯录](https://github.com/Junfeng-Zhang/real-time-messenger/assets/60849891/66e7517c-19c2-4cc8-8ae9-5ccac4b421b5)
+![消息列表](https://github.com/Junfeng-Zhang/real-time-messenger/assets/60849891/3a4f90e1-2b72-463c-8e65-f47ff60d5b33)
+![更改资料](https://github.com/Junfeng-Zhang/real-time-messenger/assets/60849891/0908c04f-6395-43f2-bc9b-7f3e7c11a2a4)
+![在线 离线](https://github.com/Junfeng-Zhang/real-time-messenger/assets/60849891/f1947a8e-fd9a-4f7a-84bb-06ecda549d29)
+![群聊](https://github.com/Junfeng-Zhang/real-time-messenger/assets/60849891/b453f86b-ed9e-41a5-89ee-0ca3eb415f66)
